@@ -1,0 +1,198 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.NavBar {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.NavBar .Logo img {
+    height: 50px;
+}
+
+.NavBar li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar li a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.NavBar li a:hover {
+    background-color: #ff5722;
+    border-radius: 4px;
+}
+
+.NavBar button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.NavBar button:hover {
+    background-color: #e64a19;
+}
+
+
+.Pi_Button {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.Pi_Button img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.Pi_Button h3 {
+    font-size: 36px;
+    color: #333;
+}
+
+.Pi_Button h2 {
+    font-size: 28px;
+    color: #ff5722;
+}
+
+.Pi_Button button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Pi_Button button:hover {
+    background-color: #e64a19;
+}
+
+
+.Intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.Intro h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+.Intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.Why {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.Why h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.Why p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.Why img {
+    margin-top: 20px;
+    max-width: 20%;
+    height: auto;
+}
+
+
+.Service {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.Service h1 {
+    font-size: 30px;
+    color: #333;
+}
+
+.Service p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.Service img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.Service img:hover {
+    transform: scale(1.1);
+}
+
+.Footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .NavBar li a {
+        padding: 10px 10px;
+    }
+
+    .Pi_Button h3 {
+        font-size: 28px;
+    }
+
+    .Pi_Button h2 {
+        font-size: 24px;
+    }
+
+    .Intro h1 {
+        font-size: 32px;
+    }
+
+    .Why h2, .Service h1 {
+        font-size: 32px;
+    }
+
+    .Service img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
